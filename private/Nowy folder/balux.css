@@ -1,0 +1,389 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container{
+position:absolute;
+width:820px;
+height:864px;
+left:20%;
+top:15px;
+border: 1px solid #cccccc;
+background-color:#ffffff;
+
+}
+#footer{
+position:absolute;
+width:635px;
+height:60px;
+left:2px;
+top:800px;
+border: 1px solid #cccccc;
+background-color:#ffffff;
+background-image:url(images/baluxII.jpg);
+}
+#footertxt{
+position:absolute;
+width:635px;
+height:60px;
+left:0px;
+background-image:url(images/foot.png);
+background-repeat:no-repeat;
+}
+#footer p{
+color:#ffffff;
+font-family:sans-serif;
+font-size:10px;
+margin:4px;
+}
+#footerP{
+position:absolute;
+width:175px;
+height:60px;
+right:2px;
+top:800px;
+border: 1px solid #cccccc;
+background-color:#ffffff;
+background-image:url(images/eurowarsztat.png);
+}
+#topmenu{
+position:absolute;
+width:635px;
+height:20px;
+left:2px;
+top:350px;
+border: 1px solid #cccccc;
+background-color:#ffffff;
+background-image:url(images/subhead_bg.png);
+}
+#topmenu p{
+margin-top:0px;
+}
+#topmenu2{
+position:absolute;
+width:175px;
+height:20px;
+right:2px;
+top:2px;
+border: 1px solid #cccccc;
+background-color:#ffffff;
+background-image:url(images/subhead_bg.png);
+}
+#header{
+	position:absolute;
+	width:635px;
+	height:320px;
+	left:2px;
+	top:26px;
+	background-image:url(images/header.jpg);
+	border: 1px solid #cccccc;
+}
+#headertxt{
+position:absolute;
+width:250px;
+height:220px;
+top:90px;
+}
+#headertxt p{
+font-size:34px;
+font-family:"Calibri","Helvetica Neue","HelveticaNeue",Helvetica,arial,verdana,sans-serif;
+margin-left:15px;
+margin-top:25px;
+line-height:23px;
+}
+#list{
+position:absolute;
+width:175px;
+height:205px;
+right:2px;
+top:110px;
+}
+#list p{
+padding:0px;
+}
+#header2{
+position:absolute;
+width:175px;
+height:320px;
+right:2px;
+top:26px;
+border: 1px solid #cccccc;
+}
+#head{
+position:absolute;
+width:619px;
+height:40px;
+top:10px;
+left:7px;
+background-image: url(images/bg_pattern.gif);
+border: 1px solid #cccccc;
+}
+#headtxt{
+position:absolute;
+left:80px;
+top:0px;
+width:300px;
+height:40px;
+}
+#dostawcy{
+position:absolute;
+width:175px;
+height:100px;
+right:3px;
+top:25px;
+background-image:url(images/dostawcy.png);
+}
+#dostawcy h1{
+font-size:16px;
+margin:6px;
+font-family:"Calibri","Helvetica Neue","HelveticaNeue",Helvetica,arial,verdana,sans-serif;
+color:#20317f;
+}
+#header3{
+position:absolute;
+width:175px;
+height:422px;
+right:2px;
+top:374px;
+border: 1px solid #cccccc;
+background-image:url(images/bg_checkered_light.png);
+overflow:hidden;
+}
+#header3 p{
+margin:0px
+}
+#display{
+position:absolute;
+width:635px;
+height:422px;
+left:2px;
+top:374px;
+background-image:url(images/display.png);
+border: 1px solid #cccccc;
+background-color:#ffffff;
+}
+#display h1{
+font-size:26px;
+font-family:"Calibri","Helvetica Neue","HelveticaNeue",Helvetica,arial,verdana,sans-serif;
+margin-left:0px;
+margin-top:4px;
+font-weight:500;
+color:#20317f;
+font-weight:strong;
+}
+
+#hometxtL{
+position:absolute;
+width:317px;
+height:300px;
+top:70px;
+left:0px;
+}
+#headingL{
+position:absolute;
+width:300px;
+height:50px;
+left:8px;
+top:5px;
+background-image:url(images/heading.png);
+}
+#headingR{
+position:absolute;
+width:300px;
+height:50px;
+left:8px;
+top:5px;
+background-image:url(images/heading.png);
+}
+#SUBJECTS{
+	position:absolute;
+	width:300px;
+	height:270px;
+	top:80px;
+	left:8px;
+	background-image:url(images/subjects.png);
+}
+#promocje{
+position:absolute;
+width:75px;
+height:25px;
+left:2px;
+top:0px;
+}
+#galeria{
+position:absolute;
+width:75px;
+height:25px;
+left:84px;
+top:0px;
+}
+#VIDEO{
+position:absolute;
+width:75px;
+height:25px;
+left:165px;
+top:0px;
+}
+#hometxtL p{
+font-size:12px;
+font-family:Calibri;
+margin:8px;
+font-weight:strong;
+color:#000000;
+}
+#hometxtR{
+position:absolute;
+width:317px;
+height:300px;
+top:70px;
+left:319px;
+}
+#hometxtR p{
+font-size:12px;
+font-family:Calibri;
+margin:8px;
+font-weight:strong;
+color:#000000;
+}
+#hometxtL a:hover{
+border-bottom:1px dotted #333333;
+}
+#hometxtL a:link, a{
+font-size:12px;
+font-family:Calibri;
+margin:0px;
+font-weight:strong;
+color:#FA5108;
+text-decoration:none;
+}
+#SUBJECTS a:link, a{
+font-size:12px;
+font-family:Calibri;
+margin:0px;
+font-weight:strong;
+color:#FA5108;
+text-decoration:none;
+}
+#SUBJECTS a:hover{
+COLOR:#333333;
+}
+
+#pdff{
+position:absolute;
+width:175px;
+height:148px;
+left:0px;
+top:0px;
+background-image:url(images/pdf.png.);
+background-repeat:no-repeat;
+}
+#pdff h1{
+font-size:16px;
+font-family:"Times New Roman", Times, serif;
+margin:4px;
+}
+#topmenu2 p{
+color:#fa5108;
+font-family:sans-serif;
+font-size:10px;
+margin:4px;
+}
+#topmenu3 p{
+color:#fa5108;
+font-family:sans-serif;
+font-size:10px;
+margin:4px;
+}
+#topmenu p{
+color:#333333;
+font-family:sans-serif;
+font-size:10px;
+margin:4px;
+}
+a img{
+text-decoration:none;
+border:none;
+outline:none;
+color:#FFFFFF
+}
+
+#topmenu3{
+position:absolute;
+width:175px;
+height:20px;
+right:2px;
+top:350px;
+border: 1px solid #cccccc;
+background-color:#ffffff;
+background-image:url(images/subhead_bg.png);
+}
+#navi{
+position:relative;
+width:635px;
+height:20px;
+left:2px;
+top:2px;
+border: 1px solid #cccccc;
+background-color:#ffffff;
+background-image:url(images/navigation.png);
+margin:0px;
+padding:0px;
+}
+#nav li{
+float:left;
+}
+#nav li a {
+position: absolute;
+top: 0px;
+margin: 0;
+padding: 0;
+display: block;
+height: 20px;
+background: url(images/navigation.png) no-repeat;
+text-indent: -9999px;
+overflow: hidden;
+font-size: 1%;
+}
+li#nav_hom a {
+	left: 0px;
+	width: 160px;
+	background-position: 0 0;
+}
+li#nav_abo a {
+  left: 159px;
+  width: 158px;
+  background-position: -159px 0;
+}
+li#nav_por a {
+  left: 317px;
+  width: 160px;
+  background-position: -317px 0;
+}
+li#nav_con a {
+  left: 477px;
+  width: 158px;
+  background-position: -477px 0;
+}
+li#nav_hom a:hover {
+  background-position: 0 -20px;
+}
+li#nav_abo a:hover {
+  background-position: -159px -20px;
+}
+li#nav_por a:hover {
+  background-position: -317px -20px;
+}
+li#nav_con a:hover {
+  background-position: -477px -20px;
+}
+#body_hom li#nav_hom a {
+  background-position: 0 -40px;
+}
+#body_abo li#nav_abo a {
+  background-position: -159px -40px;
+}
+#body_por li#nav_por a {
+  background-position: -317px -40px;
+}
+#body_con li#nav_con a {
+  background-position: -476px -40px;
+}

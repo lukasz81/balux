@@ -1,0 +1,204 @@
+﻿
+.evoslider.default
+{
+	position: relative;
+	width :802px; /* set width via option */
+	height :800px; /* set height via option */
+	margin: 25px auto;
+	padding: 5px;
+	background :url('slider_bg.png');
+	overflow : visible ;
+	
+	/* shadow */
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.8);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.8);
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Color=#4e4e4e, direction=120, strength=8)";
+    filter: progid:DXImageTransform.Microsoft.Shadow(Color=#4e4e4e, direction=120, strength=8);  
+}
+#slide-1{
+	background:url('slide-1.png');
+}
+#slide-2{
+	background:url('slide-2.png');
+}
+
+/*
+Slider title bar.
+
+The title bar are rotated, so you will need to swap your directions.
+To change the width of the title bar, you will need to modify the height property.
+You will also need to make sure that any background imagery used is rotated horizontally.
+
+To give unique custom appearance for each title, you can give a unique class for each title, for example:
+	.evoslider dt.slide_1
+	.evoslider dt.slide_2
+	.evoslider dt.slide_3
+	etc...
+*/ 
+.evoslider.default dt
+{
+	height : 45px;
+	color :#4e4e4e;
+	font-family :Arial , Verdana;
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing :1px;
+	line-height: 40px;
+	text-align : left;
+	padding-left: 20px;
+	background: #4e4e4e url('title-bar.png') no-repeat;
+    
+    /* text shadow */
+	text-shadow: -1px 1px 1px #9f9f9f;
+}
+
+/* The hover state of the title bar */ 
+.evoslider.default dt:hover
+{
+	cursor :pointer ;
+	color: #4e4e4e;
+}
+
+/* The active state of the title bar */
+.evoslider.default dt.active
+{
+	color: #4e4e4e;
+	background: #4e4e4e url('title-bar.png') no-repeat;
+	cursor :default;
+}
+
+/* 
+The slide content area
+
+The width and height will automatically be defined by the plugin.
+*/
+.evoslider.default dd 
+{
+
+}
+
+/*  _______________________________________
+
+	03 DIRECTION NAVIGATION
+    _______________________________________  */
+
+/* The arrow next */
+.evoslider.default .arrow_next 
+{
+	position :absolute ;
+	right : 10px;
+	top : 150px;
+	width : 35px;
+	height : 34px;
+	background : url('arrows-2.png') no-repeat -35px 0;
+	cursor : pointer ;
+	margin :0;
+	padding :0;
+	border : 0;
+	text-decoration: none;
+	box-shadow: 0 0 10px #000000;
+	
+	behavior: url(css/PIE/PIE.php);
+}
+
+/* The hover state of the arrow next */
+.evoslider.default .arrow_next:hover
+{
+	cursor: pointer;
+	background-position: -35px -34px;
+}
+
+/* The arrow prev */
+.evoslider.default .arrow_prev 
+{
+	position :absolute ;
+	left: 10px;
+	top: 150px;
+	width: 35px;
+	height: 34px;
+	background : url('arrows-2.png') no-repeat 0 0;
+	cursor :pointer ;
+	margin :0;
+	padding :0;
+	border :none;
+	text-decoration: none;
+	box-shadow: 0 0 10px #000000;
+	
+	behavior: url(css/PIE/PIE.php);
+}
+
+/* The hover state of the arrow prev */
+.evoslider.default .arrow_prev:hover 
+{
+	cursor: pointer;
+	background-position: 0px -34px;
+}
+
+
+/*  _______________________________________
+
+	04 CONTROL NAVIGATION ( BULLETS )
+    _______________________________________  */
+
+/* Control navigation container */
+.evoslider.default .controlNav 
+{
+	left : 10px;
+	bottom : 10px;
+	margin :0;
+	border : 0;
+}
+
+.evoslider.default .control_wrapper 
+{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+/* Control list */
+.evoslider.default .controlNav ul 
+{
+	overflow: visible;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* The bullets control */
+.evoslider.default .controlNav li.bullets 
+{
+	width : 10px;
+	height : 10px;
+	margin : 5px;
+	padding :0;
+	border :none;
+	background : #eee;
+	overflow: visible;
+	font-size: 12px;
+	text-align: center;
+	line-height: 20px;
+	color: #4e4e4e;
+	border-radius:10px;
+}
+
+/* Bullet last item */
+.evoslider.default .controlNav li.bullets.last 
+{
+}
+
+/* The hover state of the bullets control */
+.evoslider.default .controlNav li.bullets:hover
+{
+	background: #2AB5BC;
+	color: #F26809;
+}
+
+/* The active state of the bullets control */
+.evoslider.default .controlNav li.bullets.active 
+{
+	background: #2AB5BC;
+	color: #F26809;
+}
